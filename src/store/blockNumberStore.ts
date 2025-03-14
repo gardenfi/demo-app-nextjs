@@ -31,4 +31,3 @@ export const blockNumberStore = create<BlockNumberStore>()((set, get) => ({
     return get().blockNumbers;
   },
 }));
-
